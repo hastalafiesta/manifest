@@ -19,7 +19,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project name="F-AOSP/platform_art" path="art" groups="pdk" remote="github" revision="aosp-5.1" />
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-12.1" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="hastalafiesta/bootable_recovery" remote="github" revision="aosp-5.1.1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="refs/tags/android-5.1.1_r5" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="refs/tags/android-5.1.1_r5" />
   <project path="developers/build" name="platform/developers/build" revision="refs/tags/android-5.1.1_r5" />
@@ -442,5 +442,12 @@
   <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="aosp-5.1" />
 
   <project name="F-AOSP/manifest" path="manifest" remote="github" revision="lollipop-5.1" />
+
+  <!-- Janice -->
+
+	<project path="hardware/u8500" name="hastalafiesta/android_hardware_u8500" remote="github" revision="cm-12.1" />
+	<project path="vendor/samsung/janice" name="hastalafiesta/android_vendor_samsung_janice" remote="github" revision="cm-12.1" />
+	<project path="kernel/samsung/u8500" name="hastalafiesta/Samsung_STE_Kernel" remote="github" revision="master" />
+	<project path="device/samsung/janice" name="hastalafiesta/android_device_samsung_janice" remote="github" revision="aosp-5.1" />
 
 </manifest>
